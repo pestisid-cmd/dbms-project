@@ -1,0 +1,603 @@
+body {
+    margin : 0;
+    background-color: rgb(245,245,245);
+    
+    
+}
+
+.profile-area{
+    
+    margin-top:100px;
+    margin-left:120px;
+    position:absolute;
+    width:1300px;
+    height:170px;
+    background-image: url('../images/profile-image3.png');
+    
+    
+}
+
+.profile-image{
+    
+    width:130px;
+    margin-top:100px;
+    margin-left:20px;
+    z-index:1;
+}
+
+.user-info{
+    
+    position:absolute;
+    margin-top:250px;
+    margin-left:180px;
+    background-color:rgba(64, 64, 64, 0.15);
+    width:1260px;
+    height:220px;
+    z-index:-1;
+    box-shadow: 10px 10px 5px #696969;
+}
+
+.user-info>h3{
+    margin-top:20px;
+    margin-left:100px;
+    font-size:32px;
+    letter-spacing:2px;
+    text-transform:capitalize;
+    width:200px;
+}
+
+.user-details{
+    margin-top:35px;
+    margin-left:20px;
+    color: hotpink;
+    text-shadow: 3px 3px 3px #DDA0DD;
+    font-size:20px;
+    letter-spacing:2px;
+    
+}
+
+.button-style{
+    margin-top:10px;
+    position:absolute;
+    width:190px;
+    height:35px;
+    background-color:#2B60DE;
+    border:3px outset #95B9C7;
+    border-radius:10px;
+    font-size:18px;
+    color:white;
+    font-weight: bold;
+    font-style:italic;
+    
+    
+}
+
+.button-style:hover{
+    border-color:white;
+    background-color:#87AFC7;
+}
+
+.btn1{
+    margin-left:300px;
+}
+
+.btn2{
+    margin-left:520px;
+}
+
+.btn3{
+    margin-left:740px;
+}
+
+.image-group{
+    position:absolute;
+    margin-left:420px;
+    margin-top:20px;
+    
+}
+
+.img-style{
+    width:130px;
+    height:95px;
+    
+   
+}
+
+.img1{
+    border-radius:8px;
+}
+
+.img2{
+    margin-left:50px;
+    border-radius:8px;
+}
+
+.img3{
+    margin-left:50px;
+    border-radius:8px;
+}
+
+.label-group{
+    position:absolute;
+    margin-left:425px;
+    margin-top:120px;
+    font-size:20px;
+    font-style:italic;
+    color:rgba(64, 64, 64,0.96);
+    
+}
+
+.text2{
+    margin-left:82px;
+}
+
+.text3{
+    margin-left:82px;
+}
+
+.line-style{
+    position:absolute;
+    margin-top:510px;
+    margin-left:20px;
+    width:1500px;
+   
+   
+}
+
+.posts-block{
+    position:absolute;
+    margin-top:580px;
+    margin-left:50px;
+    padding:10px 30px 30px 30px;
+    width:420px;
+    height:480px;
+    background-color:rgba(64, 64, 64, 0.15);
+    box-shadow: 4px 4px 4px #696969;
+}
+
+.post-list{
+    position:absolute;
+    margin-top:120px;
+    width:430px;
+}
+
+.profile-sidebar-right{
+    
+    position:absolute;
+    margin-top:580px;
+    margin-left:560px;
+    padding:10px 30px 30px 30px;
+    width:880px;
+    height:900px;
+    box-shadow: 4px 4px 4px #696969;
+    background-color: rgba(64, 64, 64, 0.15);
+    
+}
+
+
+.profile-hr{
+    width:885px;
+    position:absolute;
+    margin-top:60px;
+}
+
+.profile-hr1{
+    width:885px;
+    position:absolute;
+    margin-top:140px;
+}
+
+.profile-hr2{
+    width:885px;
+    position:absolute;
+    margin-top:190px;
+}
+
+
+.post-list>h3{
+    text-transform:capitalize;
+    font-size:20px;
+    letter-spacing:1px;
+}
+
+.heading-style{
+
+     color:blue;
+     text-shadow: 2px 2px 2px white;
+     letter-spacing: 1px;
+}
+
+.hr-style{
+   
+    position:absolute;
+    margin-top:60px;
+    width:425px;
+}
+
+.post-btn-style{
+    
+    background-color:rebeccapurple;
+    border:none;
+    border-radius:3px;
+    width:80px;
+    height:25px;
+    margin-top:3px;
+    color:white;
+    border: 2px outset white;
+}
+
+.update-btn{
+    
+    margin-left:10px;
+    
+}
+
+.post-btn-style:hover{
+    background-color:#BDA0CB;
+    
+    
+}
+
+.add-post-btn-style{
+    position:absolute;
+    margin-top:70px;
+    margin-left:-50px;
+    width:420px;
+    height:30px;
+    background-color:#2B60DE;
+    border:3px outset #95B9C7;
+    border-radius:10px;
+    font-size:18px;
+    color:white;
+    font-weight: bold;
+    font-style:italic;
+    
+}
+
+.add-post-btn-style:hover{
+    
+    border-color:white;
+    background-color:#87AFC7;
+}
+
+.designer-data{
+    position:absolute;
+    margin-top:60px;
+    letter-spacing:1px;
+}
+
+.details-designer{
+    margin-top:10px;
+    margin-left:20px;
+    font-size:18px;
+    line-height:28px;
+    color: #696969;
+    font-style:italic;
+}
+
+#more{
+    
+    margin-left:10px;
+    background-color:rebeccapurple;
+    border:none;
+    border-radius:3px;
+    width:80px;
+    height:25px;
+    color:white;
+    border: 2px outset white;
+    
+}
+
+#more:hover{
+    background-color:#BDA0CB;    
+    
+}
+
+.profile-nav{
+    position:absolute;
+    margin-top:150px;
+    width:890px;
+    height:30px;
+    background-color:black;
+    
+}
+
+.a-link{
+    padding: 4px 10px 5px 17px;
+    letter-spacing: 3px;
+    font-size:16px;
+    text-decoration:none;
+    color:lightblue;
+    font-weight:bold;
+}
+
+.a-link:hover{
+    color:white;
+    font-weight:normal;
+}
+
+.iframe-style{   
+    position:absolute;
+    margin-top:220px;
+    margin-left:-320px;
+    width:850px;
+    height:610px;
+}
+
+.iframe-style1{
+    width:250px;
+    border:none;
+    background-color: rgb(245,245,245);
+    border-bottom:1px solid blue;
+    
+}
+
+
+.iframe-style2{
+    padding:20px;
+}
+
+.iframe-submit-style{
+    width:120px;
+    margin-left:20px;
+    margin-top:10px;
+    height:30px;
+    background-color:rebeccapurple;
+    border:2px outset white;
+    color:white;
+    font-style:italic;
+    font-size:16px;
+    
+}
+
+.iframe-submit-style:hover{
+    background-color:#BDA0CB;
+}
+
+.bedroomDetails-form{
+    color:#696969;
+    padding:30px;
+    font-style:italic;
+    font-weight: bold;
+
+}
+
+.bathroomDetails-form{
+    color:#696969;
+    padding:30px;
+    font-style:italic;
+    font-weight: bold;
+    
+}
+
+.kitchenDetails-form{
+    padding:10px;
+    margin-left:20px;
+    margin-top:20px;
+    color:#696969;
+    font-style:italic;
+    font-weight:bold;
+}
+
+.basicDetails-form{
+    color:#696969;
+    padding:20px;
+    font-weight:bold;
+    font-style:italic;
+    
+}
+.bedroomDetails-form>span{
+    font-size:18px;
+}
+
+input.iframe-image1[type=checkbox] + label
+{
+    height:130px;
+    width:130px;
+    display:inline-block;
+    margin: 15px 15px 15px 15px;
+    border: 3px solid white;
+}
+
+.Fimage1[type=checkbox] + label{
+    background-image: url("../images/Fimage1.jpg");
+    
+}
+
+
+.Fimage2[type=checkbox] + label{
+    background-image: url("../images/Fimage2.jpg");
+    
+}
+
+.Fimage3[type=checkbox] + label{
+    background-image: url("../images/Fimage3.png");
+    
+}
+
+.Fimage4[type=checkbox] + label{
+    background-image: url("../images/Fimage4.jpg");
+    
+}
+
+.Fimage5[type=checkbox] + label{
+    background-image: url("../images/Fimage5.jpg");
+    
+}
+
+.Fimage6[type=checkbox] + label{
+    background-image: url("../images/Fimage6.jpg");
+    
+}
+
+.Fimage7[type=checkbox] + label{
+    background-image: url("../images/Fimage7.jpg");
+    
+}
+
+.Fimage8[type=checkbox] + label{
+    background-image: url("../images/Fimage8.jpg");
+    
+}
+
+.Fimage9[type=checkbox] + label{
+    background-image: url("../images/Fimage9.jpg");
+    
+}
+
+.Fimage10[type=checkbox] + label{
+    background-image: url("../images/Fimage10.jpg");
+    
+}
+
+.Fimage11[type=checkbox] + label{
+    background-image: url("../images/Fimage11.jpg");
+    
+}
+
+.Fimage12[type=checkbox] + label{
+    background-image: url("../images/Fimage12.jpg");
+    
+}
+
+.Fimage13[type=checkbox] + label{
+    background-image: url("../images/Fimage13.jpg");
+    
+}
+
+.Fimage14[type=checkbox] + label{
+    background-image: url("../images/Fimage14.jpg");
+    
+}
+
+.Fimage15[type=checkbox] + label{
+    background-image: url("../images/Fimage15.jpg");
+    
+}
+
+.Fimage16[type=checkbox] + label{
+    background-image: url("../images/Fimage16.jpg");
+    
+}
+
+.Fimage17[type=checkbox] + label{
+    background-image: url("../images/Fimage17.jpg");
+    
+}
+
+.Fimage18[type=checkbox] + label{
+    background-image: url("../images/Fimage18.jpg");
+    
+}
+
+.Fimage19[type=checkbox] + label{
+    background-image: url("../images/Fimage19.jpg");
+    
+}
+
+.Fimage20[type=checkbox] + label{
+    background-image: url("../images/Fimage20.jpg");
+    
+}
+
+.Fimage21[type=checkbox] + label{
+    background-image: url("../images/Fimage21.jpg");
+    
+}
+
+.Fimage22[type=checkbox] + label{
+    background-image: url("../images/Fimage22.jpg");
+    
+}
+
+.Fimage23[type=checkbox] + label{
+    background-image: url("../images/Fimage23.jpg");
+    
+}
+
+.Fimage24[type=checkbox] + label{
+    background-image: url("../images/Fimage24.jpg");
+    
+}
+
+.Fimage25[type=checkbox] + label{
+    background-image: url("../images/Fimage25.jpg");
+    
+}
+
+.Fimage26[type=checkbox] + label{
+    background-image: url("../images/Fimage26.jpg");
+    
+}
+
+.Fimage27[type=checkbox] + label{
+    background-image: url("../images/Fimage27.jpg");
+    
+}
+
+.Fimage28[type=checkbox] + label{
+    background-image: url("../images/Fimage28.jpg");
+    
+}
+
+.Fimage29[type=checkbox] + label{
+    background-image: url("../images/Fimage29.jpg");
+    
+}
+
+.Fimage30[type=checkbox] + label{
+    background-image: url("../images/Fimage30.jpg");
+    
+}
+
+.Fimage31[type=checkbox] + label{
+    background-image: url("../images/Fimage31.jpg");
+    
+}
+
+.Fimage32[type=checkbox] + label{
+    background-image: url("../images/Fimage32.jpg");
+    
+}
+
+.Fimage33[type=checkbox] + label{
+    background-image: url("../images/Fimage33.png");
+    
+}
+
+.Fimage34[type=checkbox] + label{
+    background-image: url("../images/Fimage34.png");
+    
+}
+
+.Fimage35[type=checkbox] + label{
+    background-image: url("../images/Fimage35.png");
+    
+}
+
+.Fimage36[type=checkbox] + label{
+    background-image: url("../images/Fimage36.png");
+    
+}
+
+.Fimage37[type=checkbox] + label{
+    background-image: url("../images/Fimage37.png");
+    
+}
+
+.Fimage38[type=checkbox] + label{
+    background-image: url("../images/Fimage38.png");
+    
+}
+
+.Fimage39[type=checkbox] + label{
+    background-image: url("../images/Fimage39.png");
+    
+}
+
+.Fimage40[type=checkbox] + label{
+    background-image: url("../images/Fimage40.png");
+    
+}
+
+
